@@ -955,6 +955,7 @@ video {
 
 body{
   position: relative;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -1119,9 +1120,5 @@ body{
 @media (min-width: 1024px) {
   .lg\:max-w-\[40\%\] {
     max-width: 40%;
-  }
-
-  .lg\:max-w-md {
-    max-width: 28rem;
   }
 }

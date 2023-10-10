@@ -8,6 +8,7 @@
 
 body{
     position: relative;
+    scroll-behavior: smooth;
 }
 :root {
     --font-family: 'Manrope', sans-serif;
